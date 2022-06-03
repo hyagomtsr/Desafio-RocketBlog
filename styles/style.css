@@ -1,0 +1,157 @@
+*{
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+}
+body ul li:hover{
+    color: #4fff4b;
+    border: 1px #4fff4b solid;
+    padding: 0px 30px;
+    border-radius: 4px;
+}
+header{
+    display: flex;
+    justify-content: space-between;
+    background-color: #290742;
+    color: #fff;
+    padding: 3rem;
+    align-items: center;
+    flex-direction: row;
+    font-family: Roboto, sans-serif;
+}
+header ul li{
+    display: inline;
+    color: #fff;
+    padding: 0px 30px;
+    font-size: 1rem;
+}
+input{
+    background-color: #170027;
+    border: none;
+    outline: none;
+    padding: 10px 30px;
+    color: #fff;
+}
+.header-search{
+    display: flex;
+    align-items: center;
+}
+button {
+    background: #170027;
+    border: none;
+    display: flex;
+    align-items: center;
+}
+button .input-img{
+    background-color: #9e6dc2;
+    width: 1.5rem;
+    padding: 5px;
+    border-radius: 0px 4px 4px 0px;
+    cursor: pointer;
+}
+/* FIM DA HEADER */
+
+/* INICIO DA SECTION 1 */
+span{
+    font-family: Roboto;
+}
+.section-1{
+    background-color: #290742;
+    display: flex;
+    width: 100%;
+}
+.img-1, .text{
+    margin: 3rem;
+    font-size: 2rem;
+}
+.section-1 .text h1{
+    color: #9e6dc2;
+}
+.section-1 .text h6{
+    font-size: 1rem;
+    color: #fff;
+}
+.section-1 .text p{
+    font-size: 1.2rem;
+}
+button{
+    font-size: 1.2rem;
+    color: #9e6dc2;
+    background: none;
+    padding: 5px;
+    cursor: pointer;
+}
+/* FIM DA SECTION 1 */
+
+/* LINHA VERDE "HR" */
+.hr-green{
+    background: #4fff4b;
+    border: 3px solid #4fff4b;
+}
+/* FIM DA HR */
+
+/* INICIO DA SECTION 2 */
+
+.section-2{
+    font-family: Roboto, sans-serif;
+    display: flex;
+}
+.section-2 .post-1, .notices{
+    display: flex;
+    flex-direction: column;
+    margin: 3rem;
+}
+.section-2 h3{
+    color: #290742;
+    margin: 15px 0px;
+    font-size: 1.7rem;
+}
+/* FIM DA SECTION 2 */
+
+/* INICIO DA SECTION 3 */
+.section-3{
+    display: flex;
+    justify-content: space-between;
+}
+
+.post-2,.post-3,.post-4{
+    display: flex;
+    flex-direction: column;
+    margin: 3rem;
+}
+.section-3 h3{
+    color: #290742;
+    margin: 15px 0px;
+    font-size: 1.5rem;
+}
+
+.section-3 img {
+    width: 26rem;
+}
+/* FIM DA SECTION 3 */
+
+footer{
+    font-family: roboto, sans-serif;
+    height: 6rem;
+    font-size: 2rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #fff;
+    background: #170027;
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
